@@ -6,10 +6,10 @@ node {
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
 
-    def HUB_ORG=env.HUB_ORG_DH
-    def SFDC_HOST = env.SFDC_HOST_DH
-    def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
-    def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
+    def HUB_ORG='ukaba@devhub.com'
+    def SFDC_HOST = 'eu25.my.salesforce.com'
+    def JWT_KEY_CRED_ID = 'e5c5b72f-45f4-492b-9c63-e6b666dfe4fa'
+    def CONNECTED_APP_CONSUMER_KEY='3MVG9Ve.2wqUVx_buPAGSQlD7p5W7qASrEf8jaR4O66rprD9CrZlLAyle.aJFfIgRr9tZWe_.FG7450pCWrJ.'
     println 'KEY IS' 
     println JWT_KEY_CRED_ID
     def toolbelt = tool 'toolbelt'
